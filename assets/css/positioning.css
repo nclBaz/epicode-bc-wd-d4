@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  height: 300vh;
+}
+
+.box {
+  margin-inline: auto;
+  width: 200px;
+  height: 100px;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
+.static {
+  background-color: lightblue;
+  position: static;
+}
+
+.relative {
+  background-color: orange;
+  position: relative;
+  top: 5px;
+}
+
+.container {
+  background-color: lightgrey;
+  width: 400px;
+  height: 200px;
+  position: relative; /* Il contenitore di un elemento con position: absolute NON DEVE AVERE POSITION: STATIC */
+  margin-inline: auto;
+}
+
+.absolute {
+  position: absolute;
+  background-color: red;
+  top: 20px;
+  right: 10px;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: greenyellow;
+}
+.sticky {
+  position: sticky;
+  top: 200px;
+  background-color: green;
+}

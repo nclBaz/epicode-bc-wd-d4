@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid grey;
+  margin: 4px;
+  padding: 20px;
+}
+
+.coral-bg {
+  background-color: lightcoral;
+}
+
+.lightblue-bg {
+  background-color: lightblue;
+}
